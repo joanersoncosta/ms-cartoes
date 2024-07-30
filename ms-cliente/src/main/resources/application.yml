@@ -1,3 +1,12 @@
 spring:
  application:
-  name: ms-cliente
+  name: mscliente
+  
+server:
+ port: 8081
+ servlet:
+  context-path: /mscliente/api  
+  
+logging:
+ file:
+  name: ./logs/log-file.log  
