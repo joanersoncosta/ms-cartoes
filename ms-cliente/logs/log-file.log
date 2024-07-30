@@ -1,0 +1,31 @@
+2024-07-30 16:51:42.974  INFO 14436 --- [main] c.g.j.mscliente.MsClienteApplication     : Starting MsClienteApplication using Java 17.0.7 on BackEnd-wakanda with PID 14436 (C:\wakanda\microservicos\ms-cartoes\ms-cliente\target\classes started by joane in C:\wakanda\microservicos\ms-cartoes\ms-cliente)
+2024-07-30 16:51:42.985  INFO 14436 --- [main] c.g.j.mscliente.MsClienteApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-07-30 16:51:50.839  INFO 14436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-30 16:51:50.986  INFO 14436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 0 JPA repository interfaces.
+2024-07-30 16:51:52.455  INFO 14436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-07-30 16:51:52.475  INFO 14436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-30 16:51:52.476  INFO 14436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-07-30 16:51:52.776  INFO 14436 --- [main] o.a.c.c.C.[.[.[/mscliente/api]           : Initializing Spring embedded WebApplicationContext
+2024-07-30 16:51:52.777  INFO 14436 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8714 ms
+2024-07-30 16:51:53.026  INFO 14436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-30 16:51:56.253  INFO 14436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-30 16:51:56.801  INFO 14436 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-30 16:51:57.622  INFO 14436 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-07-30 16:51:59.505  INFO 14436 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-07-30 16:52:00.629  INFO 14436 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-07-30 16:52:04.984  INFO 14436 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-30 16:52:05.005  INFO 14436 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-30 16:52:05.723  WARN 14436 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-30 16:52:06.833  INFO 14436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/mscliente/api'
+2024-07-30 16:52:06.854  INFO 14436 --- [main] c.g.j.mscliente.MsClienteApplication     : Started MsClienteApplication in 30.162 seconds (JVM running for 34.846)
+2024-07-30 16:53:43.688  INFO 14436 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[.[/mscliente/api]           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-30 16:53:43.689  INFO 14436 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-30 16:53:43.716  INFO 14436 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2024-07-30 16:53:44.271  INFO 14436 --- [http-nio-8081-exec-2] c.g.j.mscliente.MsClienteApplication     : Obtendo o sttaus do microservice de clientes
+2024-07-30 16:53:56.812  INFO 14436 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-07-30 16:53:56.880  INFO 14436 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-07-30 16:53:56.888  INFO 14436 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[.[.[/mscliente/api]           : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-07-30 16:53:56.921  INFO 14436 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-30 16:53:56.923  INFO 14436 --- [RMI TCP Connection(11)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-07-30 16:53:56.966  INFO 14436 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-30 16:53:57.006  INFO 14436 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
